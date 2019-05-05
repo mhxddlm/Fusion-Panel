@@ -1,0 +1,876 @@
+{
+  "change-language-success": "Language changed to English, refresh to apply all.",
+  "logout-success": "Session terminated",
+  "terms": {
+	"username": "Username",
+	"email": "Email",
+	"password": "Password",
+	"invitation-code": "Invitation code",
+	"loading": "Gathering data",
+	"unlimited": "Unlimited",
+	"module-loading": "Loading Modules...",
+	"module-initiating-connection": "Initiating Connection...",
+	"ok": "OK",
+	"cancel": "Cancel"
+  },
+  "bulletin":{
+	"userIndex": "User Index"
+  },
+  "sidebar":{
+	"dashboard": "Dash",
+	"node": "Node",
+	"shop": "Shop",
+	"support": "Support",
+	"more": "More"
+  },
+  "pages": {
+	"user":{
+	  "dashboard": "Dashboard",
+	  "node": "Node",
+	  "node-list": "Node List",
+	  "node-detail": "Node Detail",
+	  "node-relay": "Node Relay",
+	  "node-relay-new": "New Relay",
+	  "node-relay-edit": "Edit Relay",
+	  "node-relay-list": "Relay List",
+	  "financial": "Financial",
+	  "charge": "Top up",
+	  "shop": "Purchase",
+	  "support": "Support",
+	  "ticket-list": "Ticket List",
+	  "ticket-detail": "Ticket Detail",
+	  "settings-me": "Personal Info",
+	  "settings-connect": "Connectivity Settings",
+	  "invite-promote": "Promotion",
+	  "invite-invite": "Invite"
+	},
+	"admin":{
+	  "dashboard": "Admin DashBoard",
+	  "user": "User Control",
+	  "user-list": "User List",
+	  "user-edit": "Edit User",
+	  "node": "Node Control",
+	  "node-list": "Node List",
+	  "node-edit": "Edit Node",
+	  "node-relay": "Relay List",
+	  "marketing": "Marketing",
+	  "marketing-summary": "Marketing Summary",
+	  "invite-code": "Invite Code",
+	  "exchange-code": "Exchange Code",
+	  "group": "Group Control",
+	  "group-list": "Group List",
+	  "group-edit": "Edit Group",
+	  "bulletin": "Bulletin Control",
+	  "bulletin-list": "Bulletin List",
+	  "bulletin-edit": "Edit Bulletin",
+	  "support": "Support Control",
+	  "ticket-list": "Ticket List",
+	  "ticket-detail": "Ticket Detail",
+	  "permission": "Permission Control",
+	  "admin-list": "Admin List",
+	  "system": "System Control",
+	  "system-config-list": "System Config List",
+	  "connectivity-config-list": "Connectivity Config List"
+	},
+	"error": {
+	  "404": "404 NOT FOUND",
+	  "403": "403 FORBIDDEN",
+	  "419": "419 UNKNOWN"
+	},
+	"login": "Login",
+	"register": "Register",
+	"api-auth": "API Authenticate",
+	"index": "",
+	"home": "Home",
+	"exit": "Exit"
+  },
+  "login": {
+	"card-title-login": "Login",
+	"button-login": "Login",
+	"button-forget-password": "Forget Password?",
+	"text-rules-email-required": "Email is required",
+	"text-rules-password-required": "Password is required",
+	"text-rules-password-length": "Password has to be at least 7 digits",
+	"success-toast-text": "Login success. Waiting for API Authentication...",
+	"api-success-toast-text": "API Authentication success.",
+	"api-error-toast-text": "API Authentication failed. Please clear your cookies and retry.",
+	"error-dialog-text": "Server returned with an unknown status code.",
+	"error-entity-none-dialog-text": "The given credentials is not valid.",
+	"error-dialog-title": "Ehh, Something is wrong."
+  },
+  "register": {
+	"card-title": "Register",
+
+	"title-step-0-default": "Enter your invitation code",
+	"title-step-0-pass-invite": "Welcome, friend of {name}",
+	"title-step-0-get-username": "Welcome, {name}",
+	"title-step-1": "Enter your Email & Username",
+	"title-step-2": "Choose your password",
+	"title-step-3": "Agree to our Terms/Conditions",
+
+	"ins-step-0": "We only accept invited users.",
+	"ins-step-1": "Netease, Sina, and QQ emails are not accepted due to stupid Chinese email policies.",
+	"ins-step-2": "For your account safety, please ensure your password at least 7 digits with lowercase characters, uppercase characters, and digits.",
+	"ins-step-3": "Do consider read our Terms/Conditions to protect your benefit.",
+
+	"text-label-repassword": "rePassword",
+	"text-label-agree": "I Agree",
+
+	"button-previous": "Previous",
+	"button-next": "Next",
+	"button-login": "Login",
+
+	"text-rules-invitation-code-required": "Invite code is required",
+	"text-rules-email-required": "Email is required",
+	"text-rules-username-required": "Username is required",
+	"text-rules-password-required": "Password is required",
+	"text-rules-agree-required": "You must agree to your Terms/Conditions",
+	"text-rules-password-limit": "Password has to be at least 7 digits",
+
+	"error-invitation-code-error0": "Sorry, we cannot find your invitation code.",
+	"error-invitation-code-error-1": "Sorry, your code is no longer usable.",
+	"error-invitation-code-error-2": "Sorry, your invitor's account has been deactivated.",
+	"error-invitation-code-error": "Sorry, your code is invalid due to system error.",
+	"error-email-username-error": "Sorry, your {temp} has already been taken.",
+	"error-email-username-error-both": "Username and Email",
+	"error-password-re-not-match": "Sorry, your Password and rePassword does not match.",
+	"error-password-limit-format": "Sorry, password must be at least 7 digits and contain lowercase characters, uppercase characters, and digits.",
+
+	"success-dialog-text": "You have successfully registered.",
+	"success-dialog-title": "Welcome, "
+  },
+  "api-auth": {
+	"text-field-permission-lost": "Critical Data Lost",
+	"text-field-getting-permission": "But don't ya worry, we are re-authorizing your session.",
+	"text-field-welcome-back": "Welcome back",
+	"text-field-welcome-back-explain": "Your session is now valid.",
+	"text-field-too-much-time": "It seems that you've encountered this situation several times.<br>We recommend you logout or change a browser.",
+	"text-field-stale-request": "Stale Request",
+	"text-field-stale-request-explain": "Your session is working properly.<br>However, this error is shown b/c you click navigation or refresh.<br>Although it is not visible, but this page require certain params to work properly.<br><small>*If you continuously got redirected to this page, try change a browser or contact your website administrator."
+  },
+  "error": {
+	"pop": {
+	  "401": "401 UNAUTHORIZED",
+	  "404": "404 NOT FOUND",
+	  "403": "403 FORBIDDEN",
+	  "419": "419 UNKNOWN",
+	  "500": "500 SYSTEM ERROR",
+	  "401-text": "You are not authorized due to a stale session.",
+	  "404-text": "Your destination page does not exists or hidden.",
+	  "403-text": "You are not authorized to perform this action.",
+	  "419-text": "Your action cannot be properly handled by system.",
+	  "500-text": "You are experiencing an system failure, please contact your administrator."
+	},
+	"403": {
+	  "text-field-access-denied": "403 FORBIDDEN",
+	  "text-field-access-denied-explain": "You are not authorized to visit this page",
+
+	  "button-text-go-back": "Go Back"
+	},
+	"404": {
+	  "text-field-404-nf": "404 NOT FOUND",
+	  "text-field-404-nf-explain": "The page you requested does not exist",
+
+	  "button-text-go-back": "Go Back"
+	}
+  },
+  "user": {
+	"index": {
+	  "card-title-flow-welcome-0-1": "Its too late, <br />get some rest.",
+	  "card-title-flow-welcome-0-2": "Moon is up, <br />try to sleep.",
+	  "card-title-flow-welcome-0-3": "It's just another <br />lonely night.",
+	  "card-title-flow-welcome-1-1": "Rise and shine,",
+	  "card-title-flow-welcome-1-2": "Good morning, it is.",
+	  "card-title-flow-welcome-1-3": "Here comes the Sun...",
+	  "card-title-flow-welcome-2-1": "Hungry for lunch?",
+	  "card-title-flow-welcome-2-2": "Relax and watch youtube.",
+	  "card-title-flow-welcome-2-3": "Good afternoon,",
+	  "card-title-flow-welcome-3-1": "Stilling working?",
+	  "card-title-flow-welcome-3-2": "Good evening,",
+	  "card-title-flow-welcome-3-3": "How's today?",
+	  "card-title-flow-welcome-subtitle": "Please read your brief account status.",
+
+	  "card-title-bulletin": "Bulletin",
+	  "card-title-user-group": "Your group info"
+	},
+	"node":{
+	  "list":{
+
+	  },
+	  "detail":{
+		"card-title-node-info": "Node info"
+	  }
+	},
+	"node-relay":{
+	  "card-title-new-relay": "New Relay",
+	  "card-title-edit-relay": "Edit Relay",
+	  "card-title-relay-list": "Relay List",
+	  "card-title-relay-what": "What is Relay?",
+
+	  "stepper-select-0": "Select your relay from Node List",
+	  "stepper-select-relay-done": "You have select {nodeName} as your relay",
+	  "stepper-select-1": "Select your final from Node List",
+	  "stepper-select-final-done": "You have select {nodeName} as your final",
+	  "stepper-select-2": "Give this relay rule a name",
+	  "stepper-select-name-error-null": "Relay name is required.",
+	  "stepper-select-name-error-less": "Relay name should longer than 3.",
+	  "stepper-select-name-done": "Your new relay rule is named as {relayName}.",
+	  "stepper-select-3": "Summary",
+	  "stepper-select-done-text-default": "LET US CHECK EVERYTHING.",
+	  "stepper-select-done-text-final": "You -> {relayName} -> {finalName}",
+
+	  "stepper-edit-0-loaded": "{nodeNameOld} is your current relay, click to change",
+	  "stepper-edit-0-default": "Select your relay from Node List",
+	  "stepper-edit-relay-done": "You have changed from {nodeNameOld} to {nodeNameNew} as your relay",
+	  "stepper-edit-1-loaded": "{nodeNameOld} is your current final, click to change",
+	  "stepper-edit-1-default": "Select your final from Node List",
+	  "stepper-edit-final-done": "You have changed from {nodeNameOld} to {nodeNameNew} as your final",
+	  "stepper-edit-2-loaded": "Click to change this relay rule's name",
+	  "stepper-edit-2-default": "Give this relay rule a name",
+	  "stepper-edit-name-error-null": "Relay name is required.",
+	  "stepper-edit-name-error-less": "Relay name should longer than 3.",
+	  "stepper-edit-name-done": "This rule's name will saved as {relayName}.",
+	  "stepper-edit-3-default": "Summary",
+	  "stepper-edit-done-text-default": "LET US CHECK EVERYTHING.",
+	  "stepper-edit-done-text-final": "You -> {relayName} -> {finalName}",
+
+	  "data-table-column-title-relay-name": "Relay Name",
+	  "data-table-column-title-relay-node": "Relay Node",
+	  "data-table-column-title-final-node": "Final Node",
+	  "data-table-column-title-actions": "Actions",
+	  "data-table-no-data": "No relay found",
+
+	  "button-text-select": "Select from Node List",
+	  "button-text-next": "Next",
+	  "button-text-submit": "Add Relay",
+	  "button-text-submit-change": "Submit changes",
+	  "tooltip-edit": "Edit",
+	  "tooltip-delete": "Delete"
+	},
+	"shop":{
+	  "card-title-quick-charge": "Add some money?",
+	  "button-text-quick-charge": "Top up!"
+	},
+	"support":{
+	  "index":{
+		"card-title-ticket-list": "Your tickets",
+		"card-title-QA-list": "Popular FAQs",
+		"card-title-documents": "Documents",
+
+		"data-table-column-title-status": "Status",
+		"data-table-column-title-title": "Title",
+		"data-table-column-title-actions": "Actions",
+		"data-table-column-title-question": "Question",
+		"data-table-no-data": "No open tickets found",
+		"data-table-ticket-no-data": "No QA found"
+	  },
+	  "ticket":{
+		"list":{
+		  "card-title-tickets-new": "Unread Tickets",
+		  "card-title-tickets-open": "Opened Tickets",
+		  "card-subtitle-created-at": "Created at {time}",
+		  "card-subtitle-updated-at": "Updated at {time}",
+
+		  "button-text-reply": "Reply",
+		  "button-text-close": "Close"
+		},
+		"detail":{
+		  "card-title-ticket-info": "Ticket Info",
+		  "card-title-reply": "Add a reply to ticket",
+		  "card-title-actions": "Ticket Actions",
+
+		  "button-text-reply": "Reply",
+		  "button-text-close": "Close",
+		  "button-text-lock": "Lock",
+		  "button-text-archive": "Archive",
+
+		  "text-field-updated-at": "Updated at: {time}",
+		  "text-field-created-at": "Created at: {time}",
+		  "text-field-replied-by": "Replied by: {name}",
+		  "text-field-replied-at": "Replied at: {time}",
+		  "text-field-ticket-archived": "Ticket has been archived at {time}.",
+		  "text-field-ticket-locked": "Ticket has been locked at {time}.",
+		  "text-field-ticket-closed": "Ticket has been closed at {time}.",
+		  "text-field-select-from-right": "Please select a ticket from right to view detail.",
+		  "text-field-no-reply": "No reply is found.",
+
+		  "close-ticket-success": "Ticket closed",
+		  "close-ticket-error": "Failed to close ticket"
+		}
+	  }
+	},
+	"invite":{
+	  "invite":{
+		"text-field-no-friend": "Go invite your friends to this awesome place!",
+		"text-field-total-invited-user": "Members Invited",
+		"text-field-invite-token-remain": "Token Left",
+		"text-field-upgrade-promote": "Join Promotion",
+		"dialog-title-welcome-promote": "Success!",
+		"text-field-welcome-promote": "You have officially join the promotion program. You now, can invite your friends with your unique code and links. Detailed in promote page."
+
+
+	  },
+	  "promote":{
+		"card-title-promote-info": "Your Promote Info",
+		"card-title-promote-source": "Promote Source",
+
+		"button-text-rebate": "Rebate Money",
+		"button-text-copy-link": "Copy invite link",
+
+		"text-field-no-friend": "Go invite your friends to this awesome place!",
+		"text-field-total-invited-user": "Members Invited",
+		"text-field-current-progress": "Current Progress",
+		"text-field-target-money": "Next Target"
+	  }
+	},
+	"settings":{
+	  "me":{
+		"card-title-edit-info": "Your Basic Info",
+		"card-title-edit-panel": "Your Panel Preferences",
+		"card-title-edit-email": "Your Email Preferences",
+
+		"button-text-save-info": "Save",
+		"button-text-select-i18n": "Select Language",
+		"button-text-select-theme": "Select Theme",
+
+		"select-text-choose-theme-dark": "Dark",
+		"select-text-choose-theme-light": "Light",
+
+		"text-user-created-at": "Member since {date}",
+		"text-user-account-status": "Account Status",
+		"text-user-email-status": "Email Verification",
+		"text-label-name": "Username",
+		"text-label-email": "Email",
+		"text-label-phone": "Phone",
+
+		"toast-save-basic-info-success": "Basic Info saved",
+		"toast-save-basic-info-error": "Failed to save Basic Info"
+	  },
+	  "connect":{
+		"card-title-connectivity-status": "Connectivity Status",
+		"card-title-connectivity-reminder": "Instruction",
+		"card-title-module-default-profile": "{moduleName} Profile",
+
+		"text-connectivity-reminder": "Please note that this is only your <b>default</b> profile.<br>Some nodes may vary based on your administrators' settings.",
+
+		"text-field-override-by-admin": "Override by Admin",
+		"text-field-no-connectivity-profile": "No {moduleName} profile found",
+		"text-field-no-connectivity-all": "! {moduleName} config error !",
+		"switch-label-status-false-override-false": "Disabled",
+		"switch-label-status-true-override-false": "Enabled",
+		"switch-label-status-false-override-true": "Disabled by Admin",
+		"switch-label-status-true-override-true": "Enabled by Admin",
+
+		"text-label-vmess-uuid": "UUIDv4",
+		"select-label-vmess-encryption": "Encryption",
+		"switch-label-status": "Status",
+
+		"text-label-shadowsocks-port": "Port",
+		"text-label-shadowsocks-password": "Password",
+		"select-label-shadowsocks-encryption": "Encryption",
+
+		"text-label-shadowsocksr-port": "Port",
+		"text-label-shadowsocksr-password": "Password",
+		"select-label-shadowsocksr-method": "Method",
+		"select-label-shadowsocksr-protocol": "Protocol",
+		"select-label-shadowsocksr-obfs": "OBFS",
+
+		"button-text-save-module-profile": "Save {moduleName} profile",
+		"button-text-create-module-profile": "Create {moduleName} profile",
+
+		"toast-save-connectivity-profile-success": "{moduleName} profile saved",
+		"toast-save-connectivity-profile-error": "Failed to save {moduleName} profile",
+		"toast-create-connectivity-profile-success": "{moduleName} profile created",
+		"toast-create-connectivity-profile-error": "Failed to create {moduleName} profile"
+	  }
+	},
+	"components": {
+	  "data-usage-linear":{
+		"text": "Your traffic for this week"
+	  },
+	  "data-usage-percent":{
+		"text": "Total data usage"
+	  },
+	  "user-group-info-table":{
+		"click-view-more": "Click on each row to view more information",
+		"no-data": "We found nothing (ｰ ｰ;)",
+		"group-name": "Group",
+		"group-traffic": "Usage",
+		"group-time": "Valid till",
+		"group-actions": "Action"
+	  }
+	}
+  },
+  "admin": {
+	"index":{
+
+	},
+	"user":{
+	  "list":{
+		"card-title-user-list": "User List",
+		"card-title-user-list-screening": "Screening",
+
+		"dialog-title-delete-user": "Delete User",
+
+		"dialog-button-text-close": "Give up",
+		"dialog-button-text-delete": "Delete",
+
+		"data-table-column-title-username": "Username",
+		"data-table-column-title-email": "Email",
+		"data-table-column-title-data-used": "Data used",
+		"data-table-column-title-status": "Status",
+		"data-table-column-title-actions": "Actions",
+		"data-table-no-data": "No human found.",
+		"data-table-selected": "Human selected:",
+
+		"text-label-screening-search": "Search here",
+		"text-label-screening-filters": "Filters",
+		"checkbox-screening-enabled": "Enabled",
+		"checkbox-screening-paid": "Paid",
+		"text-label-screening-not-used-since": "Users not used since...",
+
+		"text-screening-loading": "Updating result smartly...",
+		"text-screening-loaded": "Result updated.",
+		"text-screening-waiting": "Waiting for update...",
+
+		"dialog-text-field-warning": "The following users will be DELETED<br/>The process CANNOT BE UNDONE"
+	  },
+	  "edit":{
+		"card-title-edit-info": "Basic Infos",
+		"card-title-edit-user-group-info": "Group Infos",
+		"card-title-edit-user-relay-info": "Relay Infos",
+		"dialog-title-add-group": "Add a group",
+		"dialog-title-edit-group": "Edit group",
+
+		"dialog-text-field-loading": "Loading Modules...",
+
+		"button-text-save-info": "Save info",
+		"button-text-add-group": "Add group",
+		"button-text-add-relay": "Add relay",
+
+		"data-table-no-data": "Nothing found.",
+		"data-table-column-title-group-name": "Group",
+		"data-table-column-title-traffic": "Usage",
+		"data-table-column-title-due": "Valid till",
+		"data-table-column-title-relay-name": "Relay Name",
+		"data-table-column-title-relay-node": "Relay Node",
+		"data-table-column-title-final-node": "Final Node",
+		"data-table-column-title-actions": "Actions",
+
+
+		"text-user-created-at": "User joined at: {date}",
+		"text-user-updated-at": "User last edited at: {date}",
+		"text-label-name": "Username",
+		"text-label-email": "Email",
+		"text-label-phone": "Phone",
+		"text-label-balance": "Balance",
+		"text-label-speed-limit": "Speed limit",
+		"text-label-invite-token-remain": "Invite code remaining",
+		"switch-label-status": "Account status",
+		"switch-label-enable": "Enabled",
+		"switch-label-disable": "Disabled",
+
+		"select-label-choose-group": "Select a group",
+		"select-label-choose-group-not-found": "No group found",
+		"text-label-data": "Usage",
+		"text-label-due-time": "Valid till (blank for unlimited)",
+		"slider-label-group-type": "Deduction level (1 - 5)",
+		"dialog-button-close": "Close",
+		"dialog-button-add": "Add group",
+		"dialog-button-edit": "Update group",
+		"dialog-text-hint": "Click ∞ for unlimited.",
+
+		"toast-save-basic-info-success": "Basic Info saved",
+		"toast-save-basic-info-error": "Failed to save Basic Info",
+		"toast-delete-user-group-success": "User Group relation disconnected"
+	  }
+	},
+	"node":{
+	  "list":{
+		"card-title-node-list": "Node list",
+		"card-title-node-list-add": "Add node",
+		"card-title-node-list-screening": "Screening",
+
+		"button-text-add-node": "Add Node",
+
+		"text-label-screening-search": "Search here",
+		"data-table-selected": "Nodes selected: ",
+		"data-table-no-data": "An airport w/ plane is not an airport.",
+		"data-table-column-title-name": "Node name",
+		"data-table-column-title-address": "Address",
+		"data-table-column-title-usage": "Usage",
+		"data-table-column-title-actions": "Actions",
+
+		"text-screening-loading": "Updating result smartly...",
+		"text-screening-loaded": "Result updated.",
+		"text-screening-waiting": "Waiting for update,"
+	  },
+	  "edit":{
+		"card-title-server-remote-actions": "Server Controls",
+		"card-title-edit-connect-module-info": "Connectivity Module Info",
+		"card-title-edit-info": "Basic Info",
+		"card-title-server-status-info": "Status",
+
+		"text-node-created-at": "Node created at: {date}",
+		"text-node-updated-at": "Node last edited at: {date}",
+		"text-label-update-status-interval": "Update interval",
+		"text-label-carousel-status": "Carousel interval",
+
+		"button-text-server-shut-down": "Shut down",
+		"button-text-server-reboot": "Reboot",
+		"button-text-status-detail": "Detail",
+
+		"tab-text-cpu": "CPU",
+		"tab-text-load": "LOD",
+		"tab-text-ram": "RAM",
+		"tab-text-network": "NET",
+
+		"text-label-name": "Name",
+		"text-label-address": "Address",
+		"text-label-real-ip": "IP address",
+		"text-label-controller-key": "Controller key",
+		"text-label-controller-port": "Controller port",
+		"text-label-speed-limit": "Speed limit",
+		"text-label-rate": "Traffic rate",
+		"text-label-area": "Area",
+		"text-label-description": "Description",
+		"switch-label-relay-status": "Relay status",
+		"switch-label-relay-enable": "Enabled",
+		"switch-label-relay-disable": "Disabled",
+		"switch-label-hidden-status": "Hidden?",
+		"switch-label-hidden": "Hid",
+		"switch-label-shown": "Shown",
+		"button-text-save-info": "Save info"
+	  },
+	  "connect":{
+		"expansion-title-module-config": "{moduleName} config",
+
+		"button-text-save-module-config": "Save {moduleName} config",
+		"button-text-create-module-config": "Create {moduleName} config",
+
+		"switch-label-status": "Status",
+		"switch-label-status-true": "Enabled",
+		"switch-label-status-false": "Disabled",
+		"switch-label-override": "Override",
+		"switch-label-override-true": "Admin control",
+		"switch-label-override-false": "User control",
+
+		"text-field-no-connectivity-config": "! Node config is missing !",
+
+		"expansion-title-module-vmess-subtitle": "A lightweight socks5 proxy",
+		"text-label-vmess-port": "Port",
+		"select-label-vmess-encryption": "Encryption Selected",
+
+		"expansion-title-module-shadowsocks-subtitle": "One of the BEST socks5 proxy",
+		"text-label-shadowsocks-port-start": "Ports start from",
+		"text-label-shadowsocks-port-end": "Ports end to",
+		"select-label-shadowsocks-encryption": "Encryption Enabled",
+
+		"expansion-title-module-shadowsocksr-subtitle": "WAS one of the BEST socks5 proxy",
+		"text-label-shadowsocksr-port-start": "Ports start from",
+		"text-label-shadowsocksr-port-end": "Ports end to",
+		"select-label-shadowsocksr-method": "Methods Enabled",
+		"select-label-shadowsocksr-protocol": "Protocols Enabled",
+		"select-label-shadowsocksr-ob": "OBFS Enbaled",
+
+
+		"toast-save-connectivity-config-success": "{moduleName} config saved",
+		"toast-save-connectivity-config-error": "Failed to save {moduleName} config",
+		"toast-create-connectivity-config-success": "{moduleName} config created",
+		"toast-create-connectivity-config-error": "Failed to create {moduleName} config"
+
+	  },
+	  "relay": {
+		"card-title-relay-list": "Relay List",
+		"card-title-screening": "Screening",
+
+		"dialog-title-add-relay": "Add relay",
+		"dialog-title-edit-relay": "Edit relay",
+
+		"button-text-new-relay": "New relay",
+		"dialog-button-close": "Close",
+		"dialog-button-edit": "Update relay",
+		"dialog-button-add": "Add relay",
+
+		"text-field-screening-relay-node": "Relay node",
+		"text-field-screening-final-node": "Final node",
+		"text-field-screening-user": "Created by",
+		"text-field-pls-input": "Type to search...",
+		"text-field-wait-to-update": "Waiting to update,",
+		"text-field-updating": "Updating...",
+		"text-field-updated": "Nothing found.",
+
+		"data-table-column-title-username": "Created by",
+		"data-table-column-title-name": "Relay name",
+		"data-table-column-title-relay-node": "Relay node",
+		"data-table-column-title-final-node": "Final node",
+		"data-table-column-title-actions": "Actions",
+		"data-table-no-data": "Ahhh, no relay rule is found here.",
+
+		"text-screening-loading": "Updating result smartly...",
+		"text-screening-loaded": "Result updated.",
+		"text-screening-waiting": "Waiting for update,",
+
+		"dialog-text-field-choose-user": "Select user",
+		"dialog-text-field-choose-relay": "Select relay node",
+		"dialog-text-field-choose-final": "Select final node",
+		"dialog-text-field-relay-name": "Name this relay",
+		"dialog-text-field-no-node": "None is capable here",
+		"text-field-pls-choose-user": "Choose a user get their nodes..."
+	  }
+	},
+	"marketing":{
+	  "index":{
+
+	  },
+	  "invite-code":{
+		"card-title-invite-code-config": "Invite Code Settings",
+		"card-title-rebate-config": "Rebate Settings",
+		"card-title-invite-code-list": "Invite Code List",
+
+		"dialog-title-add-code": "Add Invite Code",
+		"dialog-title-edit-code": "Edit Invite Code",
+
+		"dialog-button-close": "Close",
+		"dialog-button-add": "Generate Code",
+		"dialog-button-edit": "Update Code",
+
+		"button-text-add-code": "Generate Invite code",
+
+		"dialog-text-label-code": "Enter Code",
+		"dialog-text-field-empty-for-random": "Leave blank for random code (show after generated)",
+		"dialog-text-label-money": "Money for this code",
+		"dialog-text-label-limit": "Maximum limit amount",
+		"dialog-text-label-genby": "Generated for",
+		"dialog-text-field-genby-info": "If you select a user to generate for, this code will become PRIVATE CODE and appear in corresponding account.<br>Leave blank to generate PUBLIC CODE.",
+		"dialog-switch-label-code-status": "Code status",
+		"dialog-switch-label-code-enable": "Enabled",
+		"dialog-switch-label-code-disable": "Disabled",
+		"dialog-text-field-pls-input": "Type to search...",
+		"dialog-text-field-wait-to-update": "Waiting to update,",
+		"dialog-text-field-updating": "Updating...",
+		"dialog-text-field-updated": "Nothing found.",
+
+		"text-label-default-code-amount": "Default invite code for new users",
+		"switch-label-force-register": "Force register with invite code",
+		"switch-label-force-enable": "Forced",
+		"switch-label-force-disable": "Optional",
+
+		"text-label-default-first-rebate-percent": "First time rebate percent",
+		"text-label-default-other-rebate-percent": "Normal rebate percent",
+		"switch-label-rebate-status": "Rebate status",
+		"switch-label-rebate-enable": "Enabled",
+		"switch-label-rebate-disable": "Disabled",
+
+		"data-table-column-title-code": "Code",
+		"data-table-column-title-money": "Money Include",
+		"data-table-column-title-usage": "Usage",
+		"data-table-column-title-limit": "Total Amount",
+		"data-table-column-title-genby": "Generated by",
+		"data-table-column-title-actions": "Actions",
+		"data-table-no-data": "No Invite code found, yet."
+	  },
+	  "exchange-code":{
+		"card-title-exchange-code-list": "Exchange Code List",
+		"button-text-add-code": "New Exchange Code",
+
+		"data-table-no-data": "Hmmm, no exchange code.",
+		"data-table-column-title-code": "Code",
+		"data-table-column-title-money": "Money",
+		"data-table-column-title-usage": "Usage",
+		"data-table-column-title-expire": "Expire at",
+		"data-table-column-title-actions": "Actions",
+
+		"dialog-title-add-exchange-code": "Add Exchange Code",
+		"dialog-title-edit-exchange-code": "Edit Exchange Code",
+
+		"dialog-text-label-code": "Code",
+		"dialog-text-field-empty-for-random": "Leave blank for random code (show after generated)",
+		"dialog-text-label-money": "Money Included",
+		"dialog-text-label-limit": "Limit",
+		"dialog-text-label-expire-at": "Expire at",
+		"dialog-text-field-hint": "Click ∞ for unlimited.",
+		"dialog-button-text-close": "Close",
+		"dialog-button-text-add": "Add",
+		"dialog-button-text-edit": "Update"
+	  }
+	},
+	"group":{
+	  "list":{
+		"card-title-group-list-add": "Add group",
+		"card-title-group-list-screening": "Screening",
+		"card-title-group-list": "Group List",
+
+		"button-text-add-group": "Add group",
+
+		"text-screening-loading": "Updating result smartly...",
+		"text-screening-loaded": "Result updated.",
+		"text-screening-waiting": "Waiting for update,",
+
+		"text-label-screening-search": "Search here",
+
+		"data-table-column-title-name": "Name",
+		"data-table-column-title-member-count": "Member Count",
+		"data-table-column-title-node-count": "Node Count",
+		"data-table-column-title-usage": "Usage",
+		"data-table-column-title-actions": "Actions",
+		"data-table-no-data": "Nothing is truly nothing..."
+	  },
+	  "edit":{
+		"card-title-edit-info": "Basic Infos",
+		"card-title-edit-group-node-info": "Nodes in group",
+		"card-title-edit-group-user-info": "Users in group",
+
+		"button-text-save-info": "Save basic info",
+		"button-text-add-node": "Add node to this group",
+		"button-text-add-user": "Add user to this group",
+
+		"text-group-created-at": "Group created at",
+		"text-group-updated-at": "Group updated at",
+		"text-label-name": "Name",
+		"text-label-order": "Order (0 - 10)",
+		"text-label-speed-limit": "Group Speed Limit (Lowest level)",
+		"text-label-description": "Description",
+		"switch-label-hidden": "Hidden?",
+		"switch-label-hidden-enable": "Hid",
+		"switch-label-hidden-disable": "Shown",
+
+		"data-table-no-data": "Wait, it's empty!",
+		"data-table-column-title-node-name": "Name",
+		"data-table-column-title-join-at": "Joined at",
+		"data-table-column-title-actions": "Actions",
+
+		"data-table-column-title-user-name": "Username",
+		"data-table-column-title-usage": "Usage",
+		"data-table-column-title-valid-till": "Valid till",
+		"data-table-column-title-deduction-level": "Deduction level"
+	  }
+	},
+	"sysConfig":{
+	  "list":{
+		"card-title-edit-system-config": "Before you edit",
+		"card-title-system-config-list": "System Config List",
+		"dialog-title-edit-config-info": "Edit Config Info",
+
+		"dialog-button-text-close": "Close",
+		"dialog-button-text-save": "Save config",
+
+		"text-field-edit-config": "Please note that changing system configs w/ understanding its usage may results in unknown error or system corruption.<br><b>DON'T DO ANYTHING STUPID.</b>",
+
+		"dialog-text-label-code": "Code",
+		"dialog-text-label-value": "Value",
+
+		"data-table-no-data": "WTF....? Something must be wrong.",
+		"data-table-column-title-name": "Name",
+		"data-table-column-title-code": "Code",
+		"data-table-column-title-value": "Value",
+		"data-table-column-title-action": "Action"
+	  },
+	  "connectivity-default":{
+		"card-title-instruction": "Instruction",
+		"card-title-connectivity-status": "Connectivity Status",
+
+		"text-connectivity-reminder": "You can manage nodes' and users' default connectivity profile here.<br>All new generated profile will based on this version."
+	  }
+	},
+	"bulletin":{
+	  "list":{
+		"card-title-instruction": "How to use",
+		"card-title-bulletin-list": "Bulletin List",
+
+		"text-field-instruction": "Temporarily leave blank.",
+
+		"data-table-no-data": "Hmmm, this seems not right.",
+		"data-table-column-title-name": "Name",
+		"data-table-column-title-code": "Code",
+		"data-table-column-title-preview": "Preview",
+		"data-table-column-title-action": "Action"
+	  },
+	  "edit": {
+		"card-title-new-bulletin": "New Bulletin",
+		"card-title-update-bulletin": "Update Bulletin",
+		"card-title-pls-select-bulletin": "Please choose one to continue...",
+		"card-title-history-bulletin": "History Versions",
+		"card-title-history-published-at": "Published at: {time}",
+		"dialog-title-preview": "Preview Bulletin with effective HTML render",
+		"dialog-title-edit-bulletin": "Edit history bulletin",
+
+
+		"button-text-pls-select": "Unknown Action",
+		"button-text-update": "Update this bulletin",
+		"button-text-new": "Create new bulletin",
+		"button-text-preview": "Preview (WYSIWYG)",
+		"button-text-delete-version": "Delete version",
+		"button-text-edit": "Edit",
+		"dialog-button-text-close": "Close",
+		"dialog-button-text-edit-save": "Save",
+
+		"text-field-why-update": "Any bulletin published in 5 minutes can be edit and re-update for your convenience.",
+		"text-field-edit-not-recommend": "We DO NOT recommend editing your past bulletin, but, you are thee boss :-)"
+	  }
+	},
+	"ticket":{
+	  "list":{
+		"card-title-tickets-new": "Unread Tickets",
+		"card-title-tickets-open": "Opened Tickets",
+		"card-subtitle-from": "Opened by {name}",
+
+		"button-text-reply": "Reply",
+		"button-text-action": "Action"
+	  },
+	  "detail":{
+		"card-title-ticket-info": "Ticket Info",
+		"card-title-reply": "Reply",
+		"card-title-actions": "Ticket Actions",
+
+		"button-text-reply": "Reply",
+		"button-text-close": "Close",
+		"button-text-lock": "Lock",
+		"button-text-archive": "Archive",
+
+		"text-field-opened-by": "Opened by: {name}",
+		"text-field-email": "Email: {email}",
+		"text-field-created-at": "Created at: {time}",
+		"text-field-replied-by": "Replied by: {name}",
+		"text-field-replied-at": "Replied at: {time}",
+		"text-field-ticket-archived": "Ticket has been archived at {time}.",
+		"text-field-ticket-locked": "Ticket has been locked at {time}.",
+		"text-field-ticket-closed": "Ticket has been closed at {time}.",
+		"text-field-select-from-right": "Please select a ticket from right to view detail.",
+		"text-field-no-reply": "No reply is found."
+	  }
+	},
+	"admin": {
+	  "card-title-permission-instruction": "Yo, Whats up?",
+	  "card-title-admin-list": "Admin List",
+	  "card-title-permission": "{name}'s Permission(s)",
+
+	  "button-text-update": "Update Permission(s)",
+	  "button-text-add-admin": "Add Admin",
+
+	  "data-table-column-title-name": "Admin Name",
+	  "data-table-column-title-permission-status": "Permission(s) Status",
+	  "data-table-column-title-actions": "Actions",
+	  "data-table-no-data-text": "No data found",
+
+	  "data-table-column-title-permission": "Permission",
+
+	  "text-field-full-access": "Full Access",
+	  "text-field-partial-access": "Partial Access",
+	  "text-field-no-access": "No Access",
+	  "text-field-introduction-part-1": "Fusion Panel has implemented a dynamic, highly efficient, and powerful permission policy management system. It allows you to distribute and control each resource model with 4 permissions--<br><b>VIEW, UPDATE, INSERT, and DELETE.</b><br>More detailed instructions please follow Github Wiki.",
+
+	  "text-field-pls-input": "Type to search...",
+	  "text-field-wait-to-update": "Waiting to update,",
+	  "text-field-updating": "Updating...",
+	  "text-field-updated": "Nothing found.",
+
+	  "toast-update-permission-success": "Permission(s) updated",
+	  "toast-update-permission-error": "Permission(s) failed to update",
+	  "toast-add-admin-success": "New admin added",
+	  "toast-add-admin-error": "Failed to add admin",
+	  "toast-delete-admin-success": "Admin deleted",
+	  "toast-delete-admin-error": "Failed to delete admin"
+	}
+  }
+}

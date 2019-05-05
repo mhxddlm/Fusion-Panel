@@ -1,0 +1,59 @@
+{
+  "terms": {
+	"username": "ユーザー名",
+	"email": "メール",
+	"password": "パスワード",
+	"invitation-code": "招待コード"
+  },
+  "login": {
+	"card-title": "Taurusにログイン",
+	"button-login": "ログイン",
+	"button-forget-password": "パスワードを忘れた方はこちら",
+	"text-rules-email-required": "メールは必要です",
+	"text-rules-password-required": "パスワードは必要です",
+	"text-rules-password-length": "パスワードは7文字以上で設定してください",
+	"success-dialog-text": "Taurusに登録しました",
+	"success-dialog-title": "ようこそ！",
+	"error-dialog-text": "メールアドレスまたはパスワードが異なります。",
+	"error-dialog-title": "エラー"
+  },
+  "register": {
+	"card-title": "新規Taurusアカウント登録",
+
+	"title-step-0-default": "招待コードを入力してください",
+	"title-step-0-pass-invite": "こんにちは、{name}さんの友達。",
+	"title-step-0-get-username": "こんにちは、{name}さん",
+	"title-step-1": "ユーザー名を入力してください",
+	"title-step-2": "パスワードを入力してください",
+	"title-step-3": "利用規約に同意します",
+
+	"ins-step-0": "招待されたお客様だけが使用できます。",
+	"ins-step-1": "中国の電子メールアドレスを使用しているお客様を受け入れません。",
+	"ins-step-2": "英大文字と英小文字ならびに数字を最低1文字以上ずつ混在させ、7文字以上で設定してください。",
+	"ins-step-3": "利用規約に同意の上、「同意する」ボタンを押してください。",
+
+	"text-label-repassword": "再度パスワードを入力してください",
+	"text-label-agree": "同意する",
+
+	"button-previous": "戻る",
+	"button-next": "次へ",
+	"button-login": "ログイン",
+
+	"text-rules-invitation-code-required": "招待コードは必要です",
+	"text-rules-email-required": "メールは必要です",
+	"text-rules-username-required": "ユーザー名は必要です",
+	"text-rules-password-required": "パスワードは必要です",
+	"text-rules-agree-required": "利用規約をお読みください",
+	"text-rules-password-limit": "パスワードは7文字以上で設定してください",
+
+	"error-invitation-code-not-found": "ご招待コードはご利用できません。",
+	"error-invitation-code-error": "ご招待コードは無効になりました。",
+	"error-email-username-error": "ユーザー名{temp}はすでに占有されている",
+	"error-email-username-error-both": "ユーザー名とメール",
+	"error-password-re-not-match": "パスワードが一致しません",
+	"error-password-limit-format": "英大文字と英小文字ならびに数字を最低1文字以上ずつ混在させ、7文字以上で設定してください",
+
+	"success-dialog-text": "ご登録に成功しました。",
+	"success-dialog-title": "ようこそ、"
+  }
+}

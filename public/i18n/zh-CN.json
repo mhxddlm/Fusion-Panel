@@ -1,0 +1,117 @@
+{
+  "change-language-success": "您已成功更换语言为 简体中文，刷新来全局生效。",
+  "terms": {
+	"username": "用户名",
+	"email": "邮箱",
+	"password": "密码",
+	"invitation-code": "邀请码",
+	"loading": "拉取信息",
+	"unlimited": "无限"
+  },
+  "pages": {
+	"login": "登录",
+	"register": "注册",
+	"dashboard": "仪表盘",
+	"node": "节点",
+	"node-list": "节点列表",
+	"node-list": "节点中转",
+	"home": "首页",
+	"exit": "退出"
+  },
+  "login": {
+	"card-title-login": "登录到Taurus",
+	"card-title-nyaccount": "使用 Nyaccount",
+	"button-login": "登录",
+	"button-nyaccount": "使用 Nyaccount 登录",
+	"text-nyaccount-description": "Nyaccount 由 Ahref_Group 中心授权系统提供支持",
+	"button-forget-password": "忘记密码？",
+	"text-rules-email-required": "邮箱必填",
+	"text-rules-password-required": "密码必填",
+	"text-rules-password-length": "密码至少7位",
+	"success-toast-text": "您已经成功登录，请等待完成API授权...",
+	"api-success-toast-text": "API授权完成",
+	"error-dialog-text": "未知错误发生，API返回了无效内容。",
+	"error-dialog-title": "诶...出错了。"
+  },
+  "register": {
+	"card-title": "注册Taurus",
+
+	"title-step-0-default": "输入您的邀请码",
+	"title-step-0-pass-invite": "欢迎，{name}的朋友",
+	"title-step-0-get-username": "欢迎，{name}",
+	"title-step-1": "输入邮箱和用户名",
+	"title-step-2": "输入密码",
+	"title-step-3": "同意我们的用户协议",
+
+	"ins-step-0": "我们仅接受被邀请的用户。",
+	"ins-step-1": "因特殊原因，网易，新浪，QQ邮箱不被我们接受。",
+	"ins-step-2": "为了您的安全，请保证密码在7位以上并含有大写字母，小写字母，和数字。",
+	"ins-step-3": "为了保证双方利益，请认真阅读我们的用户协议。",
+
+	"text-label-repassword": "重复密码",
+	"text-label-agree": "我同意",
+
+	"button-previous": "上一步",
+	"button-next": "下一步",
+	"button-login": "登录",
+
+	"text-rules-invitation-code-required": "邀请码必填",
+	"text-rules-email-required": "邮箱必填",
+	"text-rules-username-required": "用户名必填",
+	"text-rules-password-required": "密码必填",
+	"text-rules-agree-required": "您必须同意我们的用户协议",
+	"text-rules-password-limit": "密码应在7位以上",
+
+	"error-invitation-code-not-found": "抱歉，您的邀请码不存在。",
+	"error-invitation-code-error": "抱歉，您的邀请码因系统安全问题已被停用。",
+	"error-email-username-error": "抱歉，您的{temp}已被使用。",
+	"error-email-username-error-both": "用户名和邮箱",
+	"error-password-re-not-match": "抱歉，您的密码和重复密码不匹配。",
+	"error-password-limit-format": "抱歉，请保证密码在7位以上并含有大写字母，小写字母，和数字。",
+
+	"success-dialog-text": "您已成功注册Taurus",
+	"success-dialog-title": "欢迎，"
+  },
+  "user": {
+	"index": {
+	  "card-title-flow-welcome-0-1": "夜深了，<br/>早点休息。",
+	  "card-title-flow-welcome-0-2": "熬夜要适当，<br />早睡。",
+	  "card-title-flow-welcome-0-3": "又是一个<br/>不眠夜？",
+	  "card-title-flow-welcome-1-1": "早上好，",
+	  "card-title-flow-welcome-1-2": "别睡了，<br/>起床上班了。",
+	  "card-title-flow-welcome-1-3": "早起的鸟儿<br/>有虫吃。",
+	  "card-title-flow-welcome-2-1": "嘿，<br>该吃午饭了。",
+	  "card-title-flow-welcome-2-2": "休息片刻吧？",
+	  "card-title-flow-welcome-2-3": "下午好，",
+	  "card-title-flow-welcome-3-1": "还在加班？",
+	  "card-title-flow-welcome-3-2": "晚上好。",
+	  "card-title-flow-welcome-3-3": "群主在<br>啃鸡腿。",
+	  "card-title-flow-welcome-subtitle": "请查阅您的账户简报。",
+
+	  "card-title-bulletin": "公告",
+	  "card-title-user-group": "您的组信息"
+  },
+  "node-list":{
+	"card-title-guide": "您拥有的组",
+	"card-title-group": "节点列表",
+	"group-traffic": "流量",
+	"group-time": "到期日"
+  },
+	"components": {
+	  "data-usage-linear":{
+		"text": "您的本周流量走势"
+	  },
+	  "data-usage-percent":{
+		"text": "您的流量分布"
+	  },
+	  "user-group-info-table":{
+		"click-view-more": "点击任意一行来浏览更多信息",
+		"no-data": "未找到组信息(ｰ ｰ;)",
+		"group-name": "组",
+		"group-traffic": "流量",
+		"group-time": "到期日",
+		"group-actions": "操作"
+	  }
+	}
+  }
+}
